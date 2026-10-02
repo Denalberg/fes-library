@@ -219,23 +219,46 @@ padding: 10px;
   
 }
 #features {
-  padding-top: 12vw;
+  padding-top: 15vw;
   background-color: rgba(115, 66, 214, 0.1);
+  margin-bottom: 30vw
 }
 .books{
   display: flex;
+  justify-content: space-between;
 
  
 }
 
 .book__image {
   max-height: 300px;
-  width: 200px
+  width: 100%;
+padding: 24px;
+transition: all 300ms ease;
+cursor: no-drop;
 }
 
-
-
-
+.book {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.book__image--wrapper {
+margin-bottom: 8px;
+border-radius: 4px;
+overflow: hidden;
+}
+.book:hover .book__image{
+  transform: scale(1.05);
+}
+.book__title{
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.book__title:hover{
+  text-decoration: underline;
+}
 #recent {
  
 }
