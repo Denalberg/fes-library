@@ -266,6 +266,7 @@ button:active {
 .book__title--latest {
   font-size: 20px;
   margin-bottom: 8px;
+  
 }
 .book__ratings--latest {
   color: yellow;
@@ -275,6 +276,8 @@ button:active {
 .book__latest  {
   display: flex;
   flex-direction: column;
+  width: fit-content;
+  text-align: center;
   
   
 }
