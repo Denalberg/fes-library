@@ -315,8 +315,11 @@ button:active {
         grid-template-columns: 1fr;
     }
     .nav__container{
-      width: fit-content; }
-  }
+     display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}   }
+  
   
 
 
