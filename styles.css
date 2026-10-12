@@ -315,7 +315,7 @@ button:active {
         grid-template-columns: 1fr;
     }
     .nav__container{
-      width: 200px; }
+      width: fit-content; }
   }
   
 
