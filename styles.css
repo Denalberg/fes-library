@@ -314,11 +314,7 @@ button:active {
     .books__latest {
         grid-template-columns: 1fr;
     }
-    .nav__container{
-     display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}   }
+  }
   
   
 
