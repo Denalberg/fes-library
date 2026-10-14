@@ -340,6 +340,9 @@ button {
    cursor: pointer;
    border-radius: 5px;
    margin-top: 40px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
 }
    button:hover {
      transform: scale(1.05);
@@ -367,7 +370,7 @@ background-color: black;
 .final__image{
   width: 300px;
   height: auto;
-  background-color: white;
+  filter: grayscale(1) invert(1);
 }
   ul{
     justify-content: center ;
@@ -389,4 +392,7 @@ background-color: black;
 .final__p{
   color: white;
   margin-top: 20px;
+}
+image {
+  display:flex
 }
