@@ -99,6 +99,7 @@ li {
   right: 0;
   bottom: 0;
 z-index: 100;
+display: flex;
 justify-content: center;
 align-items: center;
 }
@@ -107,15 +108,17 @@ align-items: center;
   color: white;
 }
 .menu__link {
-
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .btn__menu--close {
-  position: absolute;
+position: absolute;
+top:0;
 right:20px;
 background-color: #242424;
 padding: 8ps;
