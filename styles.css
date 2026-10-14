@@ -315,14 +315,60 @@ button:active {
 
 @media (max-width: 600px) {
     .books__latest {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;}
+.row {
+  margin-top: 40px;
+  padding: 0 16px;
+}
+.highlight__wrapper {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-left: 0;
 
+}
+
+.books {
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 32px;
+}
+
+.final__row ul {
+flex-wrap: wrap;
+gap:10px;
+}
+header {
+  height: auto;
+  min-height: calc(100vh - 80px)
+}
+.nav__container {
+  padding: 0 12px;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+.nav__container ul {
+  gap: 8px;
+  margin-top:0;
+  flex-wrap: wrap;
+}
+.nav__link {
+  font-size: 14px;
+  margin-left: 0;
+  padding: 4px;
+}
     }
+
   
   
 
   
-  }
+  
 
 /* #explore {
 background-color:rgba(115, 66, 214, 0.1);
