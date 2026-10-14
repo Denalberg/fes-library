@@ -80,6 +80,48 @@ li {
   text-decoration: none;
 }
 
+.btn__menu{
+  background-color:transparent;
+  font-size: 40px;
+  text-align: center;
+  border: none;
+  color: #7342d6;
+  
+
+  
+}
+
+.menu__backdrop{
+  position: absolute;
+  background-color: #242424;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+z-index: 100;
+justify-content: center;
+align-items: center;
+}
+.menu__links{
+
+  color: white;
+}
+.menu__link {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__menu--close {
+  position: absolute;
+right:20px;
+background-color: #242424;
+padding: 8ps;
+color: white;
+}
+
 #landing {
   background-color: rgba(115, 66, 214, 0.1);
 }
