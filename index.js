@@ -3,6 +3,6 @@ function openMenu (params) {
 }
   
 function closeMenu (params) {
-  document.body.classList.remove =" menu--close"
+  document.body.classList.remove( "menu--open")
 }
   
