@@ -86,7 +86,7 @@ li {
   text-align: center;
   border: none;
   color: #7342d6;
-  
+  margin-top: 0
 
   
 }
@@ -102,11 +102,18 @@ z-index: 100;
 display: flex;
 justify-content: center;
 align-items: center;
-display: none;
+opacity: 0;
+visibility: hidden;
+
 }
 
 .menu--open .menu__backdrop {
-display: flex;
+ visibility: visible;
+ opacity: 1;
+}
+.menu--close .menu__backdrop{
+  visibility:hidden;
+  opacity: 0;
 }
 .menu__links a{
 
@@ -367,7 +374,17 @@ button:active {
     .books__latest {
         grid-template-columns: repeat(3, 1fr);
     }
+    .btn__menu {
+      display: none;
+    }
 }
+@media (max-width:2500px){
+  .btn__menu {
+    display:none
+  }
+}
+
+
 
 @media (max-width: 600px) {
     .books__latest {
@@ -417,6 +434,12 @@ header {
   font-size: 14px;
   margin-left: 0;
   padding: 4px;
+}
+.nav__links {
+  display: none;
+}
+.btn__menu {
+  display: contents
 }
     }
 
